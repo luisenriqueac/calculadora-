@@ -11,7 +11,7 @@ body {
     max-width: 400px;
     height: auto;
     padding: 20px;
-    background-image: url('../Img/solo.jpeg');
+    background-image: url('solo.jpeg');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
