@@ -11,7 +11,7 @@ body {
     max-width: 400px;
     height: auto;
     padding: 20px;
-    background-image: url('solo.jpeg');
+    background-image: url('../Img/solo.jpeg');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -53,27 +53,27 @@ button:hover {
 button:active {
     background: #f79c9c;
 }
-button:nth-child(1) {
+#borrar {
     background: rgb(247, 82, 82);
     color: white;
     font-weight: bold;
     background-color: rgba(247, 73, 73, 0.8);
 }
-button:nth-child(1):hover {
+#borrar :hover {
     background: red;
 }
-button:nth-child(1):active {
+#borrar :active {
     background: rgb(12, 12, 12);
 }
-button:last-child {
+#borrarUltimo {
     /*background: green;*/
     font-weight: bold;
     background-color: rgba(4, 163, 44, 0.7);
 }
-button:last-child:hover {
+#borrarUltimo :hover {
     background: rgb(118, 238, 118);
 }
-button:last-child:active {
+#borrarUltimo :active {
     background: rgb(10, 63, 36);
 }
 .numero {
@@ -89,3 +89,13 @@ button:last-child:active {
     background-color: rgba(61, 89, 247, 0.6);
     color: white;
 }
+#calcular {
+    /*background: green;*/
+    font-weight: bold;
+    background-color: rgba(4, 163, 44, 0.7);
+}
+#calcular :hover {
+    background: rgb(118, 238, 118);
+}
+#calcular :active {
+    background: rgb(10, 63, 36);
