@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
     <div class="calculadora">
         <input type="text" id="pantalla" disabled>
         <div class="botones">
-            <button onclick="borrar()">C</button>
             <button class="numero" onclick="agregarNumero('1')">1</button>
             <button class="numero" onclick="agregarNumero('2')">2</button>
             <button class="numero" onclick="agregarNumero('3')">3</button>
@@ -25,10 +24,12 @@
             <button class="operador" onclick="agregarOperador('-')">-</button>
             <button class="operador" onclick="agregarOperador('/')">/</button>
             <button class="operador" onclick="agregarOperador('*')">*</button>
-            <button onclick="calcular()">=</button>
-            <button onclick="borrarUltimo()">©</button>
+            <button id="calcular" onclick="calcular()">=</button>
+            <button class="punto" onclick="agregarPunto('.')">.</button>
+            <button id="borrarUltimo" onclick="borrarUltimo()">©</button>
+            <button id="borrar" onclick="borrar()">C</button>
         </div>
     </div>
-    <script src="javascript.js"></script>
+    <script src="Js/javascript.js"></script>
 </body>
 </html>
