@@ -35,3 +35,15 @@ function borrarUltimo() {
         pantalla.value = operacion;
     }
 }
+function agregarPunto(punto) {
+    const pantalla =
+    document.getElementById("pantalla");
+    if (!pantalla.value.includes("."))
+    {
+        if (pantalla.value === "") {
+            pantalla.value = "0.";
+        } else{
+            pantalla.value += "."
+        }
+    }
+}
